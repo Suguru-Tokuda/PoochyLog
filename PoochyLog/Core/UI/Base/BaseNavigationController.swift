@@ -29,6 +29,6 @@ class BaseNavigationController: UINavigationController {
 
 extension BaseNavigationController: UINavigationControllerDelegate {
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
-        isNewViewControllerBeingAdded = true
+        isNewViewControllerBeingAdded = false
     }
 }
